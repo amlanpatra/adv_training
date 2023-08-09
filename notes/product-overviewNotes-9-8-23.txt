@@ -1,0 +1,36 @@
+NEO GA7 SP2
+
+Web app server application ( JBOSS )
+cas lms cms(collateral mgmt sys)  ecm gcd common-masters collection nif
+
+App Center 
+-> SSO
+
+
+Configuration manager 
+-> to save all Configurations for complete each module
+
+
+Supported tool application
+-> Redis (used as 2nd level cache)
+-> Active MQ (for saving bulk requests)
+
+
+
+nif -> Integration layer : data interaction from cas to lms, or cas to common-masters module, it works through nif
+
+
+CAS 
+     |-> Common masters
+     |    -> GCD () dependent module. After GCD, common-masters will be up
+     |-> ECM (for documentation)
+     |-> CMS (for collaterals, eg: land dalil)
+
+
+
+LMS 
+
+
+
+
+Collections
